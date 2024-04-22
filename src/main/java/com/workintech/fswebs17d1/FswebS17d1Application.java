@@ -10,18 +10,6 @@ public class FswebS17d1Application {
 	public static void main(String[] args) {
 		SpringApplication.run(FswebS17d1Application.class, args);
 	}
-	@Value("${course.name}")
-	private String courseName;
 
-	@Value("${project.developer.fullname}")
-	private String developerFullName;
-
-	public String getCourseName() {
-		return courseName;
-	}
-
-	public String getDeveloperFullName() {
-		return developerFullName;
-	}
 
 }
